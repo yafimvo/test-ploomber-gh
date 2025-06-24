@@ -1,6 +1,6 @@
 # dockerfile for deploying streamlit apps
 # https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
-FROM 888374473732.dkr.ecr.us-east-2.amazonaws.com/docker-hub/library/python:3.11-slim-bookworm
+FROM python:3.11-slim-bookworm
 
 WORKDIR /srv
 
